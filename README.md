@@ -220,7 +220,7 @@ python inference.py \
 </details>
 
 <details>
-  <summary>Datasets preperation (click to expand)</summary>
+  <summary>Datasets preparation (click to expand)</summary>
 
 Unzip and place/link the dataset at the root path of this repo. The directory structure should be as follows:
 ```bash
