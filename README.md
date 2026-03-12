@@ -268,7 +268,7 @@ MASTER_PORT=12355 # The port of the master machine node
 
 python multi_node_distributed_train.py \
     --node_rank $RANK \
-    --local_size $GPU_NUM
+    --local_size $GPU_NUM \
     --world_size $(($GPU_NUM*$WORLD_SIZE)) \
     --master_addr $MASTER_ADDR \
     --master_port $MASTER_PORT \
